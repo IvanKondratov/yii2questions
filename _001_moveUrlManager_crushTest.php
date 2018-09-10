@@ -70,7 +70,7 @@ Then I try move the config of urlManager to backend/config/urlManager.php:
     ];
 ?>
 
-And now Test crushed:
+And now Test broken:
 p@pc:$ clear && ./vendor/bin/codecept run -c backend --steps --debug
 
 Codeception PHP Testing Framework v2.4.5
